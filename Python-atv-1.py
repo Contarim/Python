@@ -1,4 +1,3 @@
-a=int(input('Digite o primeiro numero: '))
-b=int(input('Digite o segundo numero: '))
+msg = "Olá, espero que goste do meu portfólio :)"
 
-print ('A soma do primeiro com o segundo é:', (a+b));
+print(msg);
