@@ -1,4 +1,4 @@
-import random
+from random import choice
 
 # Sorteando um nome
 
@@ -9,6 +9,6 @@ for i in range(1,5):
     #APPEND vai pegar os valores guardados na variável 'nome' e jogar para a lista da variável 'alunos'
     alunos.append(nome)
 #CHOICE vai escolher aleatóriamente 1 dos nomes que estiver dentro da lista 'alunos'
-escolhido = random.choice(alunos)
+escolhido = choice(alunos)
 
 print('O aluno sorteado foi: {}'.format(escolhido))
