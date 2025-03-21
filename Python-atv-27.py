@@ -4,7 +4,7 @@ import random
 
 alunos = []
 
-for i in range(1,5):
+for i in range(1,6):
     nome = input('Digite o nome do aluno {}: '.format(i))
     alunos.append(nome)
 
