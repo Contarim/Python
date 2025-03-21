@@ -1,6 +1,6 @@
 from math import sqrt, ceil, floor
 
-#Importando e utilizando biblioteca pela primeira vez!
+#Importando apenas algumas funções da biblioteca MATH!
 
 n = int(input('Digite um número: '))
 
@@ -10,3 +10,4 @@ print('A raiz de {} é igual a {}'.format(n,raiz))
 print('A raiz de {} é igual a {:.2f}'.format(n,raiz))
 print('A raiz de {} é igual a {}'.format(n,ceil(raiz)))
 print('A raiz de {} é igual a {}'.format(n,floor(raiz)))
+
