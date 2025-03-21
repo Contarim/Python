@@ -1,9 +1,11 @@
 from math import floor
 
-# Arredondando um número para baixo utilizando a biblioteca MATH
+# Mostrando a porção inteira de um número real utilizando a biblioteca MATH
 
-n=float(input('Digite um número com vírgula: '))
+n=float(input('Digite um número real: '))
 
-print('O número digitado foi arredondado para baixo e ficou {}'.format(floor(n)))
+print('\nUtilizando função "floor" da biblioteca MATH\nO número digitado foi {} e a porção inteira dele é {}'.format(n,floor(n)))
+
+print('\nUtilizando a função "int" nativa do Python\nO número digitado foi {} e a porção inteira dele é {}'.format(n,int(n)))
 
 
